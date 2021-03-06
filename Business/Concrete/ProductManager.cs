@@ -20,6 +20,7 @@ namespace Business.Concrete
 {
     public class ProductManager : IProductService
     {
+        //burak koca
         IProductDal _productDal;
         ICategoryService _categoryService;
         public ProductManager(IProductDal productDal, ICategoryService categoryService)
